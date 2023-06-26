@@ -1,0 +1,40 @@
+:root {
+    --bg-lightmode: #ddd;
+    --bg-card-lightmode: #eee;
+    --bg-darkmode: #121212;
+    --bg-card-darkmode: #1a1a1a;
+}
+
+
+#light .bg-card {
+    background-color: var(--bg-card-lightmode) !important;
+}
+#dark .bg-card {
+    background-color: var(--bg-card-darkmode) !important;
+}
+
+*::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    /* width of the entire scrollbar */
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent !important;
+    /* color of the tracking area */
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 20px;
+}
+
+
+#light {
+    background-color: var(--bg-lightmode) !important;
+    color: black !important;
+}
+#dark {
+    background-color: var(--bg-darkmode) !important;
+    color: white !important;
+}
